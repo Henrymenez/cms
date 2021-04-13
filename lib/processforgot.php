@@ -31,7 +31,7 @@ if($errorCount > 0){
           // $send = mail($email,$subject,$message,$headers);
 
            if($email == $passwordMail){            
-    $_SESSION["message"] = "Reset Link have been sent to your email: ". $passworduser;
+    $_SESSION["message"] = "Reset Password Code: ". $passworduser;
     header("Location:../reset.php");
            }else{
             

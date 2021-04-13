@@ -15,17 +15,8 @@ if(isset($_SESSION['message']) && !empty($_SESSION['message'])){
 }
 ?>
 </p>
-
-<p>
+</p>
 <label> Reset Code:</label> <input  type="text" name="username" placeholder="Reset">
-</p>
-
-<p>
-<label> Email:</label> <input  type="email" name="email" placeholder="Email">
-</p>
-
-<p>
-<label> New Password:</label> <input  type="password" name="password" placeholder="Password">
 </p>
 <br>
 <p>

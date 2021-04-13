@@ -35,7 +35,7 @@ if($errorCount > 0){
     header("Location:../reset.php");
            }else{
             
-    $_SESSION["error"] = "Somthing went wrong, reset link wasn't sent to email: ". $email;
+    $_SESSION["error"] = "Somthing went wrong, reset link wasn't sent to email: ".$email;
     header("Location:../forgot.php");
            }
 
